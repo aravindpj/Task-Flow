@@ -1,0 +1,10 @@
+POST http://localhost:3000/tasks/batch HTTP/1.1
+content-type: application/json
+
+{
+  "tasks": [
+    "uuid-1",
+    "uuid-2"
+  ],
+  "action": "complete"
+}
